@@ -26,19 +26,19 @@ Researched answer: model: Using the model generator does the least amount of wor
 
 4. Consider the Rails routes below. What is the name of the controller method that would be called by each route? What action would each of the controller methods perform?
 
-method="GET" /students => index
+method="GET" /students => index - gets all the students
 
-method="GET" /students/2 => show
+method="GET" /students/2 => show - shows info for student with id 2
 
-method="GET" /students/new => new
+method="GET" /students/new => new - populates the form view
 
-method="GET" /students/edit/2 => edit
+method="GET" /students/edit/2 => edit - populates a form with the student of id 2 information
 
-method="POST" /students/ => create
+method="POST" /students/ => create - creates a new student in the database
 
-method="PATCH" /students/2 => update
+method="PATCH" /students/2 => update - updates parts of the students information with id 2
 
-method="DELETE" /students/2 => destroy
+method="DELETE" /students/2 => destroy - deletes student with the id of 2
 
 5. As a developer, you want to make an application that will help you manage your to do list. To get started, you want to create the API. Create 10 user stories that will help you get your application started.
 1. as a user i can see all my todo on the dashbaord.
